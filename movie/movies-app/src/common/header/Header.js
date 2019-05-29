@@ -66,17 +66,8 @@ class Header extends Component {
                             <Button variant="contained" color="primary" onClick={this.bookShowHandler}>
                                 Book Show
                             </Button>
-                           
                         </div>
                         : ""}
-                    
-
-                 
-
-                    <input type="text" className="input" placeholder="Search..." />
-               
-               
-               
                 </header>
 
                 <Modal
