@@ -61,6 +61,12 @@ class Header extends Component {
                             Login
                         </Button>
                     </div>
+                    {this.props.showBookShowSearch === "true"?
+                    <div>
+                    <input type="text" className="input" placeholder="Search..." />
+                    </div>
+                    : ""}
+               
                     {this.props.showBookShowButton === "true" ?
                         <div className="bookshow-button">
                             <Button variant="contained" color="primary" onClick={this.bookShowHandler}>
@@ -69,13 +75,11 @@ class Header extends Component {
                            
                         </div>
                         : ""}
-                    
+
+
 
                  
 
-                    <input type="text" className="input" placeholder="Search..." />
-               
-               
                
                 </header>
 
